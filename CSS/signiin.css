@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+body {
+    background-image: url("../img/bgi.jpg");
+    /* background-color: rgb(162, 162, 154); */
+    background-size: cover;
+}
+
+.box {
+    background-color: #434046;
+    margin-top: 85px;
+    padding: 20px;
+    border-radius: 25px;
+    width: auto;
+    /* margin-left: -17px; */
+    /* box-shadow: 10px 8px 10px #E1C6EE; */
+    z-index: 20000;
+    /* text-align: center; */
+}
+
+.heading {
+    text-align: center;
+    font-size: large;
+    width: auto;
+    color: #28262a;
+    /* margin-left: 108px; */
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+.form-group {
+    margin: 40px 0px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+}
+
+.form-group input {
+    border-radius: 25px;
+}
+
+.contain-button,
+.l1 {
+    text-align: center;
+}
+
+.l1 {
+    font-size: medium;
+    color: white;
+}
+
+#submit {
+    border-radius: 20px;
+    width: 150px;
+    font-size: medium;
+}
+
+@media only screen and(max-width:360px) {
+    .container-fluid {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .box {
+        width: 356px;
+        margin-left: -28px;
+    }
+}
